@@ -1,0 +1,38 @@
+{
+  "name": "vnt-sdk",
+  "version": "1.0.0",
+  "description": "Utilities SDK to support reusable helpers, constants, and decorators for NestJS-based applications",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trungkien2022001/vnt-sdk.git"
+  },
+  "keywords": [
+    "Vnt",
+    "utilities",
+    "sdk",
+    "trungkien2022001"
+  ],
+  "author": "nguyenkien2022001@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trungkien2022001/vnt-sdk/issues"
+  },
+  "homepage": "https://github.com/Trungkien2022001/vnt-sdk#readme",
+  "dependencies": {
+    "@nestjs/common": "^7.5.5",
+    "@nestjs/core": "^7.5.5",
+    "@nestjs/swagger": "^4.7.9",
+    "class-transformer": "^0.3.1",
+    "class-validator": "^0.12.2",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.6"
+  }
+}
